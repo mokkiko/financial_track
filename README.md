@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+HI
+Rails 6.1.44
+ruby 2.7.5p203
+
+
+This is a financail tracker 
