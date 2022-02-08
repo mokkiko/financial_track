@@ -5,12 +5,12 @@
       <%= form_tag '#', method: :get do %>
         <div class='form-group row'>
 
-          <div class='col-sm-9'>
+          <div class='col-sm-9 small-right-padding'>
             <%= text_field_tag :stock, params[:stock], placeholder: "Stock ticker symbol", autofocus: true, class: 'form-control form-control-lg' %>
           </div>
-          <div class='col-sm-3'>
+          <div class='col-sm-3 small-left-padding'>
             <%= button_tag type: :submit, class: "btn btn-danger" do %>
-              <%= 'search' %>    
+              <%= fa_icon 'search 2x' %>    
             <% end %>
           </div>
         </div>
